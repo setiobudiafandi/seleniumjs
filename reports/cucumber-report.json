@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;login-successfully",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login successfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on the login page",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6074499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I input the correct credentials",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8614396000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I could login successfully",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219919699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
